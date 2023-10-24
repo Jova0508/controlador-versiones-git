@@ -111,6 +111,17 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 
 
+### Git Avanzado Referencias Remotas: Origin, Upstream, Fetch y Pull
+
+- `Origin`: Hace referencia al repositorio remoto desde el cual se clonó el proyecto.
+
+- `Upstream`: Se refiere al repositorio remoto del cual se realizó un fork (bifurcación) de un proyecto. 
+
+- `Fetch`: Recupera los cambios desde el repositorio remoto, pero no los fusiona en tu rama local. 
+
+- `Pull`: Recupera y fusiona los cambios desde el repositorio remoto en tu rama local.
+
+
 
 
 
