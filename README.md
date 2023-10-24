@@ -57,4 +57,39 @@
 La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas a eventos específicos en tu flujo de trabajo de Git.
 
 
+
+
+
+
+
+### Git Avanzado Git Rebase
+
+- `git rebase [branch]`: Se utiliza para reorganizar la historia de la rama actual (actualizar) .
+
+- `git rebase -i [id commit]`: Permite realizar un rebase interactivo a partir de un commit específico.
+
+- `git rebase -i HEAD~n`: Permite realizar un rebase interactivo para los últimos n commits de la rama actual.
+
+#### Palabras clave comunes en el Rebase Interactivo
+
+- `Pick (p)`: Conserva un commit tal como está en la historia.
+
+- `Reword (r)`: Indica que se desea editar el mensaje del commit.
+
+- `Squash (s)`: Se integra hacia arriba pero mantiene el mensaje del commit.
+
+- `Fixup (f)`: Se integra hacia arriba pero se pierde toda referencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
 Este README proporciona una introducción a comandos y conceptos esenciales de Git. 
