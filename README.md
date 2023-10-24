@@ -101,6 +101,16 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 
 
+### Git Avanzado Recuperación de Cambios Eliminados: Cherry-pick y Revert
+
+- `git cherry-pick [id commit]`: Permite seleccionar un commit y aplicarlo en otra rama directamente. 
+
+- `git revert [id commit]`: Deshace los cambios introducidos por el commit especificado, creando un nuevo commit que revierte los cambios. 
+
+
+
+
+
 
 
 
