@@ -125,5 +125,13 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 
 
+### Git Avanzado Otros Comandos
+
+- `git show`: Se utiliza para mostrar información detallada sobre un commit específico, incluyendo los cambios realizados.
+
+- `git checkout -- .`: Descarta todos los cambios en tu directorio de trabajo.
+
+
+
 
 Este README proporciona una introducción a comandos y conceptos esenciales de Git. 
