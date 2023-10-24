@@ -1,8 +1,8 @@
 # Guía de Comandos de Git
 
-## Comandos Básicos
+## Comandos 
 
-### Introducción al control de versiones
+### Introducción al control de versiones: Comandos Básicos
 
 - `git`: Se utiliza para obtener la lista de comandos disponibles en git.
 
@@ -36,9 +36,7 @@
 
 - `HEAD`: Puntero de Git para especificar branch/commit actual.
 
-### Trabajo en equipo con Git
-
-- `git clone [URL]`: Clona un repositorio Git desde una URL a un ordenador local.
+### Trabajo en equipo con Git: Ramas en profundidad: creación, fusión y resolución de conflictos
 
 - `git branch`: Muestra la lista de ramas en el repositorio.
 
@@ -48,21 +46,23 @@
 
 - `git merge [Nombre de rama/Nombre de actividad]`: Combina una rama en la rama en la que te encuentras actualmente.
 
+### Trabajo en equipo con Git: Etiquetas y versionado semántico
+
 - `git tag [0.0.1]`: Crea etiquetas para marcar versiones en la posicion del HEAD.
 
+- `git tag -d [nombre]`: se utiliza para eliminar una etiqueta tag específica.
+
+### Trabajo en equipo con Git: Gitignore y gestión de archivos binarios y sensibles
+
 - `.gitignore`: Archivo de configuración para especificar qué archivos o directorios deben ser ignorados.
+
+### Trabajo en equipo con Git: Hooks de Git y automatización de tareas
 
 - `git commit -m "Mensaje del commit" -n`: Ignora el precommit.
 
 La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas a eventos específicos en tu flujo de trabajo de Git.
 
-
-
-
-
-
-
-### Git Avanzado Git Rebase
+## Git Avanzado Git Rebase
 
 - `git rebase [branch]`: Se utiliza para reorganizar la historia de la rama actual (actualizar) .
 
@@ -70,7 +70,7 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 - `git rebase -i HEAD~n`: Permite realizar un rebase interactivo para los últimos n commits de la rama actual.
 
-#### Palabras clave comunes en el Rebase Interactivo
+### Palabras clave comunes en el Rebase Interactivo
 
 - `Pick (p)`: Conserva un commit tal como está en la historia.
 
@@ -80,11 +80,7 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 - `Fixup (f)`: Se integra hacia arriba pero se pierde toda referencia.
 
-
-
-
-
-### Git Avanzado Git Stash
+## Git Avanzado Git Stash
 
 - `git stash`: Se utiliza para guardar temporalmente cambios que se han realizado en el directorio de trabajo.
 
@@ -96,22 +92,13 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 - `git stash pop stash@{n}`: Trae un stash específico y lo borra de la pila.
 
-
-
-
-
-
-### Git Avanzado Recuperación de Cambios Eliminados: Cherry-pick y Revert
+## Git Avanzado Recuperación de Cambios Eliminados: Cherry-pick y Revert
 
 - `git cherry-pick [id commit]`: Permite seleccionar un commit y aplicarlo en otra rama directamente. 
 
 - `git revert [id commit]`: Deshace los cambios introducidos por el commit especificado, creando un nuevo commit que revierte los cambios. 
 
-
-
-
-
-### Git Avanzado Referencias Remotas: Origin, Upstream, Fetch y Pull
+## Git Avanzado Referencias Remotas: Origin, Upstream, Fetch y Pull
 
 - `Origin`: Hace referencia al repositorio remoto desde el cual se clonó el proyecto.
 
@@ -121,17 +108,23 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 - `Pull`: Recupera y fusiona los cambios desde el repositorio remoto en tu rama local.
 
-
-
-
-
-### Git Avanzado Otros Comandos
+## Git Avanzado Otros Comandos
 
 - `git show`: Se utiliza para mostrar información detallada sobre un commit específico, incluyendo los cambios realizados.
 
 - `git checkout -- .`: Descarta todos los cambios en tu directorio de trabajo.
 
+# Comandos de GitHub
 
+- `git clone [url]`: Clona un proyecto desde una URL remota a la computadora.
+
+- `git remote -v`: Verifica la configuración de los repositorios remotos asociados con tu proyecto en la nube.
+
+- `git branch -M main`: Cambia el nombre de la rama "master" a "main".
+
+- `git push -u origin main`: Se utiliza para empujar la rama local "main" a un repositorio remoto llamado "origin" y establecer una relación de seguimiento.
+
+- `git push`: Agrega los cambios realizados en tu repositorio local a la nube.
 
 
 Este README proporciona una introducción a comandos y conceptos esenciales de Git. 
