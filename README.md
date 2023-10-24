@@ -36,7 +36,25 @@
 
 - `HEAD`: Puntero de Git para especificar branch/commit actual.
 
+### Trabajo en equipo con Git
 
+- `git clone [URL]`: Clona un repositorio Git desde una URL a un ordenador local.
+
+- `git branch`: Muestra la lista de ramas en el repositorio.
+
+- `git checkout -b [Asignar-responsable-a-rama/nombre-de-actividad]`: Crea una nueva rama y cambia a ella en un solo paso.
+
+- `git checkout [Nombre de rama o commit]`: Cambia entre ramas o commits.
+
+- `git merge [Nombre de rama/Nombre de actividad]`: Combina una rama en la rama en la que te encuentras actualmente.
+
+- `git tag [0.0.1]`: Crea etiquetas para marcar versiones en la posicion del HEAD.
+
+- `.gitignore`: Archivo de configuración para especificar qué archivos o directorios deben ser ignorados.
+
+- `git commit -m "Mensaje del commit" -n`: Ignora el precommit.
+
+La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas a eventos específicos en tu flujo de trabajo de Git.
 
 
 Este README proporciona una introducción a comandos y conceptos esenciales de Git. 
