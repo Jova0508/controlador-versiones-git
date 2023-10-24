@@ -84,6 +84,19 @@ La carpeta `.git/hooks` contiene scripts que te permiten personalizar respuestas
 
 
 
+### Git Avanzado Git Stash
+
+- `git stash`: Se utiliza para guardar temporalmente cambios que se han realizado en el directorio de trabajo.
+
+- `git stash list`: Se utiliza para ver una lista de todos los stashes guardados en el repositorio.
+
+- `git stash pop`: Trae el stash más reciente y lo borra de la pila.
+
+- `git stash apply stash@{n}`: Trae un stash específico pero no lo borra de la pila.
+
+- `git stash pop stash@{n}`: Trae un stash específico y lo borra de la pila.
+
+
 
 
 
